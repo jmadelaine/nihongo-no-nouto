@@ -1,0 +1,109 @@
+html {
+  font-size: 16px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+body {
+  background-color: #1b1b1e;
+  color: #bdc2c6;
+  margin: 0;
+  padding: 1rem;
+}
+.subheading {
+  font-size: 1.5rem;
+  padding: 1.5rem 0.75rem 0;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.gap-md {
+  gap: 0.75rem;
+}
+.playable {
+  cursor: pointer;
+}
+.playable:hover {
+  color: #128cff;
+}
+.kana {
+  font-size: 1.5rem;
+}
+.furigana {
+  font-size: 1.5rem;
+  opacity: 0.5;
+}
+.part-of-speech {
+  font-size: 1rem;
+  font-style: italic;
+  opacity: 0.5;
+}
+.translation {
+  font-size: 1rem;
+}
+.card-main-section {
+  padding: 1rem;
+  border-left: 2px solid #cb33ff;
+}
+.card-examples-section {
+  border-top: 1px solid #47494d;
+  gap: 0.5rem;
+  padding: 1rem;
+  background-color: #202124;
+  border-left: 2px solid #cb33ff40;
+}
+.example-kana {
+  opacity: 0.75;
+  font-size: 1.25rem;
+}
+.example-translation {
+  opacity: 0.5;
+  font-size: 0.875rem;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.phrase-list {
+  padding: 1rem;
+  max-width: 1000px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding-bottom: 87.5vh;
+}
+.phrase-wrapper {
+  font-size: 1.5rem;
+  background-color: #25262a;
+  border-radius: 0 0.75rem 0.75rem 0;
+  overflow: hidden;
+}
+.part-of-speech-verb {
+  border-left: 2px solid #1bbef9;
+}
+.part-of-speech-adverb {
+  border-left: 2px solid #60ba28;
+}
+.part-of-speech-noun {
+  border-left: 2px solid #ff5230;
+}
+.part-of-speech-adjective {
+  border-left: 2px solid #ffcd44;
+}
+.part-of-speech-verb-examples {
+  border-left: 2px solid #1bbef940;
+}
+.part-of-speech-adverb-examples {
+  border-left: 2px solid #60ba2840;
+}
+.part-of-speech-noun-examples {
+  border-left: 2px solid #ff523040;
+}
+.part-of-speech-adjective-examples {
+  border-left: 2px solid #ffcd4440;
+}
