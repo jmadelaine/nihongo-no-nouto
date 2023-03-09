@@ -10,7 +10,12 @@ export default [
   { kana: '大丈夫', furigana: 'だいじょうぶ', translation: 'OK; okay; alright; problem free' },
   { kana: 'どうも', translation: 'thx' },
   { kana: 'どう', translation: 'how; in what way; how about' },
-  { kana: 'いくら', translation: 'how much; how many' },
+  {
+    kana: 'いくら',
+    translation: 'how much; how many',
+    examples: [{ kana: 'いくらですか', translation: 'How much is it?' }],
+  },
   { kana: '一番', furigana: 'いちばん', translation: 'number one; first; 1st, first place; best; most' },
   { kana: 'どうぞ', translation: 'please' },
+  { kana: '時々', furigana: 'ときどき', translation: 'sometimes' },
 ]

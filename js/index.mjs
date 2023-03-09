@@ -1,5 +1,6 @@
 import verbs from './verbs.mjs'
 import adverbs from './adverbs.mjs'
+import nouns from './nouns.mjs'
 
 const getAudioSrc = async text => {
   const res = await (
@@ -20,7 +21,7 @@ const speak = async text => {
   player.pause()
   player.src = await getAudioSrc(text)
   player.load()
-  player.playbackRate = 1.25
+  player.playbackRate = 1.125
   player.play()
 }
 
@@ -106,3 +107,5 @@ createSubheading('Adverbs')
 createCards(adverbs.map(v => ({ ...v, partOfSpeech: 'adverb' })))
 createSubheading('Verbs')
 createCards(verbs.map(v => ({ ...v, partOfSpeech: 'verb' })))
+createSubheading('Nouns')
+createCards(nouns.map(v => ({ ...v, partOfSpeech: 'noun' })))
